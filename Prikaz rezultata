@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="new3.css"/>
+	<link rel="icon" type="image/ico" href="favicon1.ico"/>
+	<meta charset="utf-8"></meta>
+	<title>Anketa app - megabIT d.o.o.</title>
+</head>
+<body>
+	<header>
+		<article>
+			<h3>Anketa app - stvori vlastitu anketu!
+				<a id="slika"><img src="favicon-96x96.png"/></a>
+			</h3>
+			
+			<div id="login">
+				<p>Dobrodošli, korisnik!  </p>
+			</div>
+				
+			
+			<div></div>
+		</article>
+	
+
+	</header>
+	<aside id="prviass">	
+		<p id="jedan">
+			<h1>U nastavku možete vidjeti analizu odgovora</h1>
+			<p id="graf"><img src="Charts.png"></p>
+			<ul>
+				<li> Na ovo pitanje odgovaralo je stotinu ispittanika</li>
+				<li> Ispitanici su studenti Tehničkog Veleučilišta u Zagrebu</li>
+				<li> Točnih odgovora bilo je 57%, dok je netočnik bilo 43%</li>
+			</ul>
+			
+		</p>
+	</aside>
+	
+		
+	<footer>
+			<article>
+				<p>Za dodatne informacije tvrtka megabIT uvijek Vam stoji na raspolaganju. 
+				Zahvaljujemo na povjerenju.</p>
+				<div>
+					<img src="facebook.jpg"/>
+					<img style="padding-left:1%;"src="twit.png"/>
+					<img style="padding-left:1%;"src="link.png"/>
+				</div>
+				<p>Copyright &copy megabIT. All rights reserved.</p>
+			</article>
+	</footer>
+</body>
+</html>
