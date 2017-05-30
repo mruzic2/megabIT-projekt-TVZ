@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="new1.css"/>
+	<link rel="icon" type="image/ico" href="favicon1.ico"/>
+	<meta charset="utf-8"></meta>
+	<title>Anketa app - megabIT d.o.o.</title>
+</head>
+<body>
+	<header>
+		<article>
+			<h3>Anketa app - stvori vlastitu anketu!
+				<a id="slika"><img src="favicon-96x96.png"/></a>
+			</h3>
+			
+			<div id="login">
+				<p>Username:  <textarea style="border-radius: 25px;"rows="1" cols="15"></textarea></p>
+				<p>Password:  <textarea style="border-radius: 25px;"rows="1" cols="15"></textarea></p>
+				<p><a href="#"> Prijavi se!</a></p>
+			</div>
+				
+			
+			<div></div>
+		</article>
+	
+
+	</header>
+	<aside id="prviass">	
+		<p id="jedan">
+			<h1>Unesite pitanje koje želite postaviti...</h1>
+			<textarea rows="1" cols="55"></textarea>
+			<h2 style="font-size:1.7em;"id="odg">Unesite kakav oblik odgovora želite:</h2>
+			 <form>
+			  <input type="radio" name="odgovor" value="radio" checked> Radio-button<br>
+			  <input type="radio" name="odgovor" value="checked"> Checkbox<br>
+			  <input type="radio" name="odgovor" value="opis"> Opisni odgovor
+			</form> 
+			<ul>
+				<li><input type="radio" name="odgovor" value="radio" checked> 1. pitanje</li>
+				<li><input type="radio" name="odgovor" value="radio" checked> 2. pitanje</li>
+				<li><input type="radio" name="odgovor" value="radio" checked> 3. pitanje</li>
+			</ul>
+			<h2 id="jasamh2"><a href="#">Stvori!</a></h2>
+		</p>
+	</aside>
+	
+		
+	<footer>
+			<article>
+				<p>Za dodatne informacije tvrtka megabIT uvijek Vam stoji na raspolaganju. 
+				Zahvaljujemo na povjerenju.</p>
+				<div>
+					<img src="facebook.jpg"/>
+					<img style="padding-left:1%;"src="twit.png"/>
+					<img style="padding-left:1%;"src="link.png"/>
+				</div>
+				<p>Copyright &copy megabIT. All rights reserved.</p>
+			</article>
+	</footer>
+</body>
+</html>
